@@ -30,3 +30,19 @@ We also conduct extended experiments using two representative *human activity re
 |  | F1-score | **83.28** | 74.88 | 57.58 |
 | UCI-HAR | Accuracy | **93.72** | 92.41 | 87.67 |
 |  | F1-score | **94.17** | 92.39 | 88.02 |
+
+```
+[1] N-BEATS: Neural basis expansion analysis for interpretable time series forecasting.
+
+[2] iTransformer: Inverted Transformers Are Effective for Time Series Forecasting.
+
+[3] A Time Series is Worth 64 Words: Long-term Forecasting with Transformers.
+
+[4] Irregular Multivariate Time Series Forecasting: A Transformable Patching Graph Neural Networks Approach.
+
+[5] Neural Flows: Efficient Alternative to Neural ODEs.
+
+[6] FLAAP: An Open Human Activity Recognition (HAR) Dataset for Learning and Finding the Associated Activity Patterns.
+
+[7] A Public Domain Dataset for Human Activity Recognition Using Smartphones.
+```
