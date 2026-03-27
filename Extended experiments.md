@@ -1,4 +1,4 @@
-To evaluate ViRe on **multivariate time series forecasting**, we conduct additional experiments on the **M4** benchmark *[1]*. We compare ViRe with **iTransformer** *[2]* and **PatchTST** *[3]*, and report SMAPE, MASE, and OWA.
+To evaluate ViRe on **multivariate time series forecasting**, we conduct additional experiments on the **M4** benchmark *[1]*. We compare ViRe with **iTransformer** *[2]* and **PatchTST** *[3]*, and report SMAPE, MASE, and OWA ***(the lower, the better)***.
 
 | Task | Metric | ViRe (Ours) | iTransformer | PatchTST |
 |-|-|-|-|-|
@@ -12,7 +12,7 @@ To evaluate ViRe on **multivariate time series forecasting**, we conduct additio
 |  | MASE | **0.934** | 1.082 | 1.031 |
 |  | OWA | **0.892** | 0.984 | 0.944 |
 
-To further assess ViRe under **irregularly sampled time series**, we evaluate it on three datasets: **PhysioNet**, **MIMIC**, and **Human Activity**, following **t-PatchGNN** *[4]*. We compare ViRe against **t-PatchGNN** *[4]* and **Neural Flow** *[5]*, using MSE and MAE.
+To further assess ViRe under **irregularly sampled time series**, we evaluate it on three datasets: **PhysioNet**, **MIMIC**, and **Human Activity**, following **t-PatchGNN** *[4]*. We compare ViRe against **t-PatchGNN** *[4]* and **Neural Flow** *[5]*, using MSE and MAE ***(the lower, the better)***.
 
 | Dataset | Metric | ViRe (Ours) | t-PatchGNN | Neural Flow |
 |-|-|-|-|-|
@@ -23,7 +23,7 @@ To further assess ViRe under **irregularly sampled time series**, we evaluate it
 | Human Activity | MSE $\times 10^{-3}$ | **2.55** | 2.66 | 4.05 |
 |  | MAE $\times 10^{-2}$ | **3.09** | 3.15 | 4.46 |
 
-We also conduct extended experiments using two representative *human activity recognition benchmarks*, **FLAAP** *[6]* and **UCI-HAR** *[7]*, to validate the effectiveness of ViRe in general **time series classification**. We choose **iTransformer** *[2]* and **PatchTST** *[3]* as baselines, using Accuracy and F1-score.
+We also conduct extended experiments using two representative *human activity recognition benchmarks*, **FLAAP** *[6]* and **UCI-HAR** *[7]*, to validate the effectiveness of ViRe in general **time series classification**. We choose **iTransformer** *[2]* and **PatchTST** *[3]* as baselines, using Accuracy and F1-score ***(the higher, the better)***.
 | Task | Metric | ViRe (Ours) | iTransformer | PatchTST |
 |-|-|-|-|-|
 | FLAAP | Accuracy | **83.42** | 75.35 | 58.34 |
