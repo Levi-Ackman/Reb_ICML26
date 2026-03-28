@@ -1,7 +1,7 @@
 
 ### Efficiency analysis on **APAVA** (***batch size = 128***), using runtime and peak GPU memory for training/inference. 
 
-During training, ViRe uses vision features that are precomputed once offline and reused thereafter; therefore, this one-time preprocessing cost is excluded from per-iteration training overhead. Under this setting, ViRe is both more accurate and efficient than Medformer and FEDformer.
+During training, ***ViRe uses vision features that are precomputed once offline and reused thereafter***; therefore, this one-time preprocessing cost is excluded from per-iteration training overhead. Under this setting, ViRe is both more accurate and efficient than Medformer and FEDformer.
 
 ***For inference, to fairly reflect the deployment cost, we include the full online visual pipeline of ViRe, including deterministic visualization and vision feature extraction.***  ViRe remains comparable to FEDformer, but is slower and more memory-intensive than Medformer. 
 
