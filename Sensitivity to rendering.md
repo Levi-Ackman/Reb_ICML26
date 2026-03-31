@@ -1,5 +1,5 @@
 
-###  
+###  Ablation of Rendering Resolution
 
 | DPI | APAVA | PTB |
 |-|-|-|
@@ -9,6 +9,8 @@
 |100|90.93±1.07|86.14±1.66|
 |200|91.21±1.11|85.60±1.59|
 
+###  Ablation of Waveform Scaling (Line width)
+
 | Line width (Scaling) | APAVA | PTB |
 |-|-|-|
 |0.05|82.04±3.34|75.59±2.92|
@@ -17,6 +19,7 @@
 |24|85.30±2.12|79.48±1.79|
 |48|81.81±2.21|74.24±4.87|
 
+###  Ablation of Channel Layout (Coloring Channels or Not)
 
 | Channel Layout | APAVA | PTB |
 |-|-|-|
